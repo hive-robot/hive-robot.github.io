@@ -1,0 +1,122 @@
+---
+id: eai-guide
+title: "快速入门指南"
+date: 2025-10-24
+tags: ["指南", "Embodied AI"]
+summary: 使用开源工具复现 HIVE Group 具身智能实验的快速上手手册。
+category: 指南
+---
+
+
+> *这份指南旨在帮助新成员快速上手。重点不是学完所有内容，而是掌握核心精华——理解思路、敢于实践。遇到问题再回头补充。*
+
+---
+
+## 🎯 知识掌握（约两周）
+
+### 1. PyTorch 基础（预计 10h）
+
+推荐学习小土堆的 PyTorch 入门课程。
+课程讲解通俗、示例完整，适合第一次接触深度学习的同学。
+
+👉 [PyTorch深度学习快速入门教程（小土堆） - 哔哩哔哩](https://www.bilibili.com/video/BV1hE411t7RN/?spm_id_from=333.337.search-card.all.click)
+
+---
+
+### 2. CS231N 计算机视觉基础（预计 20h）
+
+这门课系统地介绍了计算机视觉的核心知识点，是入门视觉研究的最佳路径。
+建议优先学习卷积、反向传播、分类与检测相关章节。
+
+👉 [【公开课·2025春季】李飞飞·斯坦福 CS231n 课程 - 哔哩哔哩](https://www.bilibili.com/video/BV1b1agz5ERC?spm_id_from=333.788.videopod.episodes)
+
+---
+
+### 3. 基础模型速览
+
+你不需要精通，但要有基本印象。建议了解以下模型的核心思路：
+
+> Transformer、Diffusion、ViT、PointNet、VAE、CLIP、DINO、MAE、DepthAnything、FoundationPose、Grounding-DINO、SigLIP、SAM 1/2、AnyGrasp。
+
+同样，了解以下策略类模型的代表工作：
+
+> Action Chunking with Transformer、Diffusion Policy、3D Diffusion Policy、RT-1、OpenVLA。
+
+---
+
+### 4. 机器人学基础（选学，约 10h）
+
+推荐的入门视频：
+👉 [机械臂运动学教程 - 哔哩哔哩](https://www.bilibili.com/video/BV1oa4y1v7TY/?spm_id_from=333.337.search-card.all.click)
+
+了解机械臂的正逆运动学、旋转矩阵与轨迹规划，这些会在后续的具身智能项目中用到。
+
+---
+
+### 💡 一些学习心得
+
+课程内容更多是帮你搭建知识框架，真正的理解来自动手与提问。
+建议结合 **AI 辅助学习** 与 **高质量博客阅读**：
+
+* 不懂就问 ChatGPT / Claude / Gemini，让 AI 帮你解释概念；
+* 查阅优秀博客加深理解，特别推荐：[苏剑林的科学空间](https://spaces.ac.cn/)
+  （涵盖了深度学习算法的原理、推导与实践技巧）。
+
+---
+
+## 🧰 技能掌握（约一周）
+
+掌握科研中常用的基础工具与环境操作：
+
+* 科学上网（Google Scholar / GPT / Gmail / arXiv / GitHub / Hugging Face / Overleaf）
+* Linux 基础操作（`cd`, `cp`, `mv`, `rm`, `ls`）
+* Conda 环境管理（`create`, `activate`, `list`）
+* Git 版本控制 → [10分钟速通 Git 核心指令](https://www.bilibili.com/video/BV1Sp421o7U4/)
+* tmux 远程会话管理（`new -s`, `a -t`, `list-sessions`）
+* VSCode / Cursor 编辑器配置
+* Python Debug 基础
+  → [VSCode Debug Python 项目 | Debug 技巧 - 哔哩哔哩](https://www.bilibili.com/video/BV1i4421Z7aM/)
+* Markdown 基础语法（用于记录学习与笔记）
+* 服务器使用（AutoDL、OneThing 等平台）
+
+---
+
+## 🧭 推荐训练流程
+
+1. 本地安装 VSCode 或 Cursor
+2. 在 AutoDL / OneThingAI 上租用服务器（无卡也可练环境）
+3. 学习如何通过 VSCode 连接远程服务器
+4. 在服务器上尝试基础 Linux 命令
+5. 安装并使用 tmux（后台运行程序）
+6. 使用 Conda 创建独立环境
+7. 在 GitHub 上新建项目并拉取至服务器
+8. 撰写简单的 Python 脚本与 README，并上传回 GitHub
+9. 提交 GitHub 链接作为学习成果展示
+
+---
+
+## 🗞️ 关注与阅读推荐
+
+### 📖 优质公众号
+
+石麻笔记（顶级）、具身智能之心、量子位、新智元、机器之心、具身智能实验室
+
+### 📱 小红书博主
+
+AI椰青、AI有温度、RoboX、AGI CoLab、坏机器人（AI版）
+
+### 🧠 GitHub 推荐
+
+[Embodied-AI-Guide by Tianxing Chen](https://github.com/TianxingChen/Embodied-AI-Guide)
+
+---
+
+## 🌿 写在最后
+
+学习 AI，不是靠堆课程完成的。
+要多试、多问、多动手。
+哪怕你只是跑通第一个 demo、复现一篇论文、或者写下一段实验日志——
+这都是成长的开始。
+
+希望这份指南，能帮你少走弯路，也帮你点燃一点探索的热情。
+**Make something interesting, and enjoy yourself here. 🤗**

@@ -1,0 +1,16 @@
+/* Minimal prose and code highlight */
+.prose {
+  max-width: 65ch;
+}
+.prose pre {
+  background: #0b1021;
+  color: #e6edf3;
+  border-radius: 12px;
+  padding: 1rem;
+  overflow: auto;
+}
+.prose code { background: #f5f2f0; padding: 0.15rem 0.35rem; border-radius: 6px; }
+.prose h1, .prose h2, .prose h3 { color: var(--ink-900); }
+.prose a { color: var(--ink-900); text-decoration: underline; }
+.prose img { border-radius: 12px; }
+

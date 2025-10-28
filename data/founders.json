@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Qiwei Liang",
+    "chineseName": "梁棋炜",
+    "title": "Incoming Ph.D. student · HKUST(GZ)",
+    "bio": "梁棋炜，深圳大学22级本科生，香港科技大学（广州）26级直博生，导师为许人镜老师，本科期间专业综排第一，获得华为奖学金与比亚迪奖学金，曾获全国大学生物联网设计竞赛全国总冠军。以第一作者在中科院一区Top，AAAI等期刊与会议上发表论文。",
+    "image": "/images/founders/qiwei.jpg",
+    "links": {
+      "homepage": "https://kolakivy.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=ioIA3loAAAAJ&hl=en",
+      "email": "kola337599@gmail.com"
+    },
+    "tags": ["Robot Learning", "Representation Learning"]
+  },
+  {
+    "name": "Tao Lin",
+    "chineseName": "林涛",
+    "title": "Incoming M.S. student · BJTU",
+    "bio": "林涛，昆明理工大学22级本科生，研究生将入学北京交通大学，导师为温玉辉老师。热爱一切与智能、创作、探索有关的事物。主要研究领域为三维感知与数字人，致力于真实场景落地。",
+    "image": "/images/founders/lintao.png",
+    "links": {
+      "homepage": "https://www.lintao.online",
+      "email": "leo040102@gmail.com"
+    },
+    "tags": ["3DV","Multimodal Learning", "Embodied AI"]
+  },
+  {
+    "name": "Boyang Cai",
+    "chineseName": "蔡博阳",
+    "title": "Undergraduate student · SZU",
+    "bio": "蔡博阳，深大23本，获双创之星，挑战杯省三，物联网国二，中国创新创业大赛具身智能赛道国优等7项奖项。一篇二作论文在投，主要研究方向包括RL，Robotics，Embodied-AI。",
+    "image": "/images/founders/caiboyang.jpeg",
+    "links": {
+      "homepage": "https://github.com/YoungYNG",
+      "email": "cby54947@gmail.com"
+    },
+    "tags": ["Robotics", "Embodied AI","Reforcement learning"]
+  },
+  {
+    "name": "Jiaming Liang",
+    "chineseName": "梁家鸣",
+    "title": "Undergraduate student · SZU",
+    "bio": "梁家鸣，深大22本，获华为奖学金，挑战杯省三等10+奖项。学生一作投稿IJCV，合作发表CVPR等论文。",
+    "image": "/images/founders/liangjiaming.jpeg",
+    "links": {
+      "github": "https://github.com/ljm0636",
+      "email": "liangjiaming0636@gmail.com"
+    },
+    "tags": ["Representation Learning", "Spatial Reasoning", "Self-supervised Learning"]
+  },
+  {
+    "name": "Minghao Lai",
+    "chineseName": "赖铭浩",
+    "title": "Incoming Ph.D. Student · Institute of Automation, CAS",
+    "bio": "赖铭浩，深大22本，中国科学院自动化所直博生，获华为奖学金，荔园之星，鹏程奖学金等10+项奖学金与物联网国一，蓝桥杯国一等10+项比赛奖项。发表一篇ICCV，一篇中科院二区期刊。主要研究方向包括具身智能，多模态，视频与图像处理。",
+    "image": "/images/founders/laiminghao.jpg",
+    "links": {
+      "homepage": "https://example.com/luo",
+      "email": "minghaolai77@gmail.com"
+    },
+    "tags": ["Embodied AI", "Multimodal Learning","Video and Image Processing"]
+  },
+  {
+    "name": "广告位招租",
+    "title": "展示你的团队 / 项目 / 活动",
+    "bio": "想与 HIVE Group 共同探索新的研究方向或合作项目？我们欢迎志同道合的伙伴一起交流想法、共享资源、携手共创。",
+    "image": "/images/founders/ad-slot.svg",
+    "links": {
+      "homepage": "mailto:hivegroup@yourdomain.com"
+    },
+    "adSlot": true
+  }
+]

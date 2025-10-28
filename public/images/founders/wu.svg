@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#FFF3CE" />
+      <stop offset="100%" stop-color="#FCD34D" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="360" fill="url(#g)" rx="40" />
+  <text x="50%" y="52%" text-anchor="middle" font-size="96" font-family="Arial, sans-serif" fill="#B45309" font-weight="700">HW</text>
+</svg>
