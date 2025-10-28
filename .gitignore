@@ -6,3 +6,11 @@ out
 npm-debug.log*
 pnpm-debug.log*
 .env
+node_modules
+.next
+.contentlayer
+out
+.DS_Store
+npm-debug.log*
+pnpm-debug.log*
+.env
