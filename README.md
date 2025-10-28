@@ -1,4 +1,4 @@
-# Lumina × Calgary Lab Site
+# Hive Group Site
 
 A from-scratch, yellow-themed academic lab website built with Next.js (App Router), TypeScript, TailwindCSS, and Contentlayer. Includes i18n (en/zh), People mixed layout, Publications with link badges and BibTeX, Events with signup/replay, Blog with MDX, on-page filters, basic SEO/schema, and a glassmorphism navigation demo at the root page.
 
