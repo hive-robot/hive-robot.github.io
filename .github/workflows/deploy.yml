@@ -15,13 +15,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'pnpm'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npx -y pnpm@9 install --frozen-lockfile
+        run: npm install
 
       - name: Build static site
-        run: npx -y pnpm@9 run build
+        run: npm run build
 
       - name: Deploy to hive-robot.github.io
         uses: peaceiris/actions-gh-pages@v3
