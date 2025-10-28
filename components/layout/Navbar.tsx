@@ -6,7 +6,6 @@ import { useEffect, useMemo, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 import NavLink from '@/components/nav/NavLink'
-import MobileSheet from './MobileSheet'
 import { defaultMenu, isActivePath, normalizePath } from '@/lib/route'
 import type { MenuItem } from '@/lib/route'
 
@@ -41,6 +40,10 @@ export default function Navbar({ lang = 'zh', sticky = true, className, menu }: 
 
   const currentPath = normalizePath(pathname)
 
+  useEffect(() => {
+    setSheetOpen(false)
+  }, [currentPath])
+
   return (
     <header className={containerClasses}>
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
@@ -72,7 +75,25 @@ export default function Navbar({ lang = 'zh', sticky = true, className, menu }: 
           </svg>
         </button>
       </div>
-      <MobileSheet open={sheetOpen} onClose={() => setSheetOpen(false)} menu={items} />
+      {sheetOpen ? (
+        <div className="md:hidden border-t border-line bg-white shadow-sm">
+          <nav className="mx-auto max-w-6xl px-4 py-3 sm:px-6">
+            <ul className="flex flex-col gap-1">
+              {items.map((item) => (
+                <li key={item.href}>
+                  <NavLink
+                    href={item.href}
+                    label={item.labelZh}
+                    active={isActivePath(currentPath, normalizePath(item.href))}
+                    onClick={() => setSheetOpen(false)}
+                    className="w-full rounded-lg px-3 py-2 text-base hover:bg-amber-50"
+                  />
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+      ) : null}
     </header>
   )
 }
