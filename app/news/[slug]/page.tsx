@@ -22,3 +22,8 @@ export default function NewsArticlePage({ params }: { params: { slug: string } }
     </Container>
   )
 }
+
+// 静态生成所有 News 详情页，便于静态导出
+export function generateStaticParams() {
+  return allPosts.filter((p) => p.category === 'News').map((p) => ({ slug: p.slug }))
+}

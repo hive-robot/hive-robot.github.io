@@ -117,3 +117,8 @@ export default function PostPage({ params }: { params: { slug: string } }) {
     </Container>
   )
 }
+
+// 让 Next 在构建时静态生成所有文章页面（支持静态导出）
+export function generateStaticParams() {
+  return allPosts.map((p) => ({ slug: p.slug }))
+}
