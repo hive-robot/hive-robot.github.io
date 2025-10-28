@@ -3,8 +3,8 @@ import SectionTitle from '@/components/ui/SectionTitle'
 import { allPublications } from 'contentlayer/generated'
 import PublicationsClient from './PublicationsClient'
 
-// 静态页面，不在服务端读取 searchParams，避免动态渲染限制
-export const dynamic = 'error'
+// 强制静态化，客户端组件中处理筛选/搜索
+export const dynamic = 'force-static'
 
 export default function PublicationsPage() {
   return (
